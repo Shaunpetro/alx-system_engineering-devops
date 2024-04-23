@@ -2,5 +2,5 @@
 #configuere a new ubuntu machine respecting the requirements
 apt-get update
 apt-get -y install nginx
-echo "Hoberton School" > /var/www/html/index.html
+echo "Hello World!" > /var/www/html/index.html
 service nginx start
