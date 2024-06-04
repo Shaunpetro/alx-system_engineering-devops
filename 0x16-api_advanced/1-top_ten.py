@@ -1,6 +1,7 @@
 """prints hot posts on given Reddit subreddit"""
 import requests
 
+
 def top_ten(subreddit):
     """prints titles of the 10 hottests posts on a subreddit"""
     url = "https://www.reddit.com/r/{}/hot/.json".format(subreddit)
