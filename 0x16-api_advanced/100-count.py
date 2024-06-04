@@ -8,7 +8,7 @@ def count_words(subreddit, word_list, instances={}, after="", count=0):
 
     Args:
         subreddit (str): The subreddit to search.
-        word_list (list): list of words to search for in post titles.
+        word_list (list): The list of words to search for in post titles.
         instances (obj): Key/value pairs of words/counts.
         after (str): The parameter for the next page of the API results.
         count (int): The parameter of results matched thus far.
